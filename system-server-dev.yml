@@ -1,0 +1,14 @@
+server:
+  port: 8082
+  max-http-header-size: 102400
+
+mybatis-plus:
+  # 指定实体类所有包
+  type-aliases-package: com.cy.oauth2.web.entities
+# 日志级别，会打印sql语句
+logging:
+  level:
+    com.cy.oauth2.web.mapper: debug
+
+env: dev
+branch: master
