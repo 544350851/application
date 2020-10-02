@@ -4,7 +4,7 @@ server:
 
 mybatis-plus:
   # 指定实体类所有包
-  type-aliases-package: com.cy.oauth2.web.entities
+  type-aliases-package: com.guizhou.base.oauth.web.domain
 # 日志级别，会打印sql语句
 logging:
   level:
